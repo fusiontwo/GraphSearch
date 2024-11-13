@@ -14,7 +14,4 @@
 - All of these are utilized within the Main class.
 
 ### 4. Output Example
-![image](https://github.com/user-attachments/assets/87de31f9-fc11-44f8-aaee-6d21cb43fc20)
-![image](https://github.com/user-attachments/assets/3961da2f-0ded-4e12-ae8f-b3eb27fad52b)
-![image](https://github.com/user-attachments/assets/10045bf2-e12c-45b6-bb08-10484f37aace)
-
+![image](https://github.com/user-attachments/assets/85118825-bc57-4714-ab67-dd4072056056)
