@@ -7,13 +7,17 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         System.out.println("***** 그래프 탐방 및 최단거리 알고리즘 프로그램 *****");
+        System.out.println("\n< 출력 예시 1 >");
         graph_exp("src/test1/input1.txt");
         shortest_path("src/test1/input2.txt");
+        System.out.println("\n< 출력 예시 2 >");
+        graph_exp("src/test2/input1.txt");
+        shortest_path("src/test2/input2.txt");
     }
 
     public static void graph_exp(String file_path) {
-        BFS bfs = new BFS();
         DFS dfs = new DFS();
+        BFS bfs = new BFS();
 
         System.out.println("\n1. 그래프 탐방 수행 결과");
         List<int[][]> matrices = read_graphs_to_matrices(file_path);
