@@ -62,7 +62,7 @@ public class Dijkstra {
             sptSet[u] = true;
 
             for (int v = 0; v < nodesCount; v++) {
-                if (!sptSet[v] && weighted_matrix[u][v] != 0 && dist[u] != Integer.MAX_VALUE
+                if (!sptSet[v] && weighted_matrix[u][v] != Integer.MAX_VALUE && dist[u] != Integer.MAX_VALUE
                         && dist[u] + weighted_matrix[u][v] < dist[v]) {
                     dist[v] = dist[u] + weighted_matrix[u][v];
                     prev[v] = u;

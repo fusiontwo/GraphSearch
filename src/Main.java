@@ -88,7 +88,14 @@ public class Main {
             while (scanner.hasNextInt()) {
                 int matrix_size = scanner.nextInt();
                 int[][] weighted_matrix = new int[matrix_size][matrix_size];
-                scanner.nextLine(); // Move to the next line
+
+                for (int i = 0; i < matrix_size; i++) {
+                    for (int j = 0; j < matrix_size; j++) {
+                        weighted_matrix[i][j] = (i == j) ? 0 : Integer.MAX_VALUE;
+                    }
+                }
+
+                scanner.nextLine();
 
                 for (int i = 0; i < matrix_size; i++) {
                     if (!scanner.hasNextLine()) break;
