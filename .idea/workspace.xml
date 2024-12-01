@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f2b4c60-c76b-4f58-b91a-90206d77049f" name="변경" comment="fix: Change order of creating algorithm class instance">
+    <list default="true" id="8f2b4c60-c76b-4f58-b91a-90206d77049f" name="변경" comment="fix: Change order of creating algorithm class instance, Change method of creating weighted matrix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dijkstra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +87,8 @@
       <workItem from="1731512121644" duration="1826000" />
       <workItem from="1731514662913" duration="439000" />
       <workItem from="1732079575439" duration="3278000" />
-      <workItem from="1732416256920" duration="7559000" />
+      <workItem from="1732416256920" duration="8415000" />
+      <workItem from="1733063105417" duration="3364000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Graph Search Program with DFS, BFS, Dijkstra algorithm">
       <option name="closed" value="true" />
@@ -113,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732418002225</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix: Change order of creating algorithm class instance, Change method of creating weighted matrix">
+      <option name="closed" value="true" />
+      <created>1732425411606</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732425411606</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,7 +142,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: Graph Search Program with DFS, BFS, Dijkstra algorithm" />
     <MESSAGE value="fix: Change order of creating algorithm class instance" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: Change order of creating algorithm class instance" />
+    <MESSAGE value="fix: Change order of creating algorithm class instance, Change method of creating weighted matrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: Change order of creating algorithm class instance, Change method of creating weighted matrix" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
