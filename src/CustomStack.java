@@ -18,7 +18,7 @@ public class CustomStack {
 
     public int pop() {
         if (isEmpty()) {
-            throw new IllegalStateException("스택이 비워진 상태입니다.");
+            throw new IllegalStateException("스택이 비어있는 상태입니다.");
         }
         return stack[top--];
     }
