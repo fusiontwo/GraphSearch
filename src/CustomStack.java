@@ -10,7 +10,7 @@ public class CustomStack {
     }
 
     public void push(int value) {
-        if (top == size - 1) {
+        if (isFull()) {
             throw new StackOverflowError("스택이 모두 채워진 상태입니다.");
         }
         stack[++top] = value;
@@ -25,5 +25,9 @@ public class CustomStack {
 
     public boolean isEmpty() {
         return top == -1;
+    }
+
+    public boolean isFull() {
+        return top == size - 1;
     }
 }

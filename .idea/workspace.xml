@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f2b4c60-c76b-4f58-b91a-90206d77049f" name="변경" comment="fix: add custom queue in BFS, custom stack in DFS">
-      <change afterPath="$PROJECT_DIR$/src/CustomQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CustomStack.java" afterDir="false" />
+    <list default="true" id="8f2b4c60-c76b-4f58-b91a-90206d77049f" name="변경" comment="fix: add Custom Queue Class in BFS, Custom Stack Class in DFS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustomStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +89,7 @@
       <workItem from="1732416256920" duration="8415000" />
       <workItem from="1733063105417" duration="3810000" />
       <workItem from="1733067002158" duration="86000" />
-      <workItem from="1733123140482" duration="1349000" />
+      <workItem from="1733123140482" duration="1780000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Graph Search Program with DFS, BFS, Dijkstra algorithm">
       <option name="closed" value="true" />
@@ -134,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733066738837</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix: add Custom Queue Class in BFS, Custom Stack Class in DFS">
+      <option name="closed" value="true" />
+      <created>1733124808397</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733124808397</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +161,8 @@
     <MESSAGE value="fix: Change order of creating algorithm class instance" />
     <MESSAGE value="fix: Change order of creating algorithm class instance, Change method of creating weighted matrix" />
     <MESSAGE value="fix: add custom queue in BFS, custom stack in DFS" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: add custom queue in BFS, custom stack in DFS" />
+    <MESSAGE value="fix: add Custom Queue Class in BFS, Custom Stack Class in DFS" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: add Custom Queue Class in BFS, Custom Stack Class in DFS" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
